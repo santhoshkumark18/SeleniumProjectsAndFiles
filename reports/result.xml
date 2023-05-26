@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="7.073" tests="4" skipped="0" failures="4" errors="0">
+<testcase classname="Bookcart application demo" name="Add a product to the cart - Example #1.1" time="6.198">
+<failure/>
+<system-out><![CDATA[
+Given User navigate to the BookCart application.............................undefined
+And User should login as "ortoni" and "pass1234"............................skipped
+And user search a "Birthday Girl"...........................................skipped
+When User add the book to the cart..........................................skipped
+Then the cart badge should be updated.......................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Bookcart application demo" name="Add a product to the cart - Example #1.2" time="0.131">
+<failure/>
+<system-out><![CDATA[
+Given User navigate to the BookCart application.............................undefined
+And User should login as "ortonikc" and "pass1234"..........................skipped
+And user search a "Like a Love Story".......................................skipped
+When User add the book to the cart..........................................skipped
+Then the cart badge should be updated.......................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Bookcat Application tests" name="" time="0.155">
+<failure/>
+<system-out><![CDATA[
+Given User navigate to the BookCart application.............................skipped
+And User clicks on the login button.........................................skipped
+And User enter the username as ortoni.......................................skipped
+And User enter the password as Pass1234.....................................skipped
+When User click on the login button.........................................skipped
+Then Login should be success................................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Bookcat Application tests" name="" time="0.125">
+<failure/>
+<system-out><![CDATA[
+Given User navigate to the BookCart application.............................skipped
+And User clicks on the login button.........................................skipped
+And User enter the username as Koushik......................................skipped
+And User enter the password as Pass21.......................................skipped
+When User click on the login button.........................................skipped
+But Login should fail.......................................................skipped
+]]></system-out>
+</testcase>
+</testsuite>
